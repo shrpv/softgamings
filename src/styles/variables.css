@@ -1,0 +1,10 @@
+/* Variables */
+
+:root {
+  --color-black: #000000;
+  --color-black-50a: rgb(0 0 0 / 0.50);
+  --color-gray: #cccccc;
+  --color-white: #ffffff;
+  --color-yellow: #ffba00;
+  --color-yellow-50a: rgb(255 186 0 / 0.50);
+}

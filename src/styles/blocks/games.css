@@ -1,0 +1,13 @@
+/* Games */
+
+.games {
+  display: grid;
+  justify-content: start;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 48px 0;
+
+  gap: 48px;
+  grid-auto-flow: column;
+}

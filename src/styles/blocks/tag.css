@@ -1,0 +1,16 @@
+/* Tag */
+
+.tag {
+  margin: 0;
+  padding: 2px 8px;
+
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: inherit;
+  text-align: center;
+  color: var(--color-yellow);
+
+  background-color: transparent;
+  border: 2px solid var(--color-yellow);
+  border-radius: 4px;
+}

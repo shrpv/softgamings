@@ -1,0 +1,21 @@
+/* Dewi regular */
+
+@font-face {
+  font-weight: normal;
+  font-family: 'Dewi';
+  font-style: normal;
+
+  font-display: swap;
+  src: url('../fonts/dewi/regular.woff2') format('woff2');
+}
+
+/* Dewi bold */
+
+@font-face {
+  font-weight: normal;
+  font-family: 'Dewi';
+  font-style: normal;
+
+  font-display: swap;
+  src: url('../fonts/dewi/bold.woff2') format('woff2');
+}

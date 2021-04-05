@@ -1,0 +1,162 @@
+/* Card */
+
+.card {
+  position: relative;
+
+  width: 400px;
+  height: 240px;
+
+  background-color: var(--color-gray);
+  background-image: url('../../images/image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.card:hover > .card__more {
+  opacity: 1;
+}
+.card:hover > .card__info {
+  display: none;
+}
+
+/* Info */
+
+.card__info {
+}
+
+/* Popular */
+
+.card__popular {
+  position: absolute;
+  top: 24px;
+  left: -2px;
+
+  margin: 0;
+  padding-right: 16px;
+  padding-left: 16px;
+
+  color: var(--color-black);
+  text-shadow: 0 1px 2px rgba(150, 150, 150, 1);
+
+  background-color: #ffba00;
+
+  clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%);
+}
+
+/* Categories */
+
+.card__categories {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  left: 8px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+/* Tag */
+
+.card__tag {
+  margin: 8px;
+}
+
+/* More */
+
+.card__more {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--color-black-50a);
+  border-radius: 10px;
+  opacity: 0;
+
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+
+/* Favorite */
+
+.card__favorite {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  padding: 4px;
+
+  color: var(--color-yellow);
+
+  background-color: transparent;
+  border: 1px solid var(--color-yellow);
+  border-radius: 4px;
+
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+
+  touch-action: manipulation;
+}
+.card__favorite > svg {
+  display: block;
+
+  fill: currentColor;
+}
+.card__favorite:hover {
+  color: var(--color-white);
+
+  background-color: var(--color-yellow-50a);
+}
+
+/* Title */
+
+.card__title {
+  position: absolute;
+  top: 64px;
+  right: 24px;
+  left: 24px;
+
+  display: -webkit-box;
+  max-height: 76px;
+  margin: 0;
+  overflow: hidden;
+
+  font-size: 24px;
+  text-align: center;
+  color: var(--color-yellow);
+  white-space: normal;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* Actions */
+
+.card__actions {
+  position: absolute;
+  right: 48px;
+  bottom: 36px;
+  left: 48px;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Button */
+
+.card__button {
+  flex-basis: 120px;
+  margin-right: 32px;
+}
+.card__button:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,13 @@
+/* Global */
+
+@import 'fonts.css';
+@import 'box-model.css';
+@import 'variables.css';
+
+/* Blocks */
+
+@import 'blocks/button.css';
+@import 'blocks/tag.css';
+@import 'blocks/card.css';
+@import 'blocks/games.css';
+@import 'blocks/page.css';

@@ -1,0 +1,32 @@
+/* Button */
+
+.button {
+  padding: 0 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: inherit;
+  text-align: center;
+  color: var(--color-black);
+
+  background-color: var(--color-yellow);
+  border: 2px solid var(--color-yellow);
+  border-radius: 4px;
+
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+
+  touch-action: manipulation;
+}
+.button:hover {
+  color: var(--color-white);
+
+  background-color: var(--color-yellow-50a);
+}
+.button--secondary {
+  color: var(--color-yellow);
+
+  background-color: transparent;
+}

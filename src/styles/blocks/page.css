@@ -1,0 +1,16 @@
+/* Page */
+
+.page {
+  line-height: 1.5;
+  font-family: 'Dewi', sans-serif;
+  color: var(--color-black);
+
+  background-color: var(--color-white);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page__body {
+  margin: 0;
+}
